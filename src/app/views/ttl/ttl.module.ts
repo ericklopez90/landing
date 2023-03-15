@@ -7,6 +7,8 @@ import { CardGpayComponent } from './components/card-gpay/card-gpay.component';
 import { FirstBlockComponent } from './first-block/first-block.component';
 import { SecoundBlockComponent } from './secound-block/secound-block.component';
 import { ThirdBlockComponent } from './third-block/third-block.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 
 
@@ -26,6 +28,8 @@ const routes: Routes = [
     FirstBlockComponent,
     SecoundBlockComponent,
     ThirdBlockComponent,
+    NavbarComponent,
+    SidebarComponent,
   ],
   imports: [
     CommonModule,
