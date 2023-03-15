@@ -1,7 +1,10 @@
 @import "../../../../styles.scss";
 
 .container {
-  min-height: 400px;
+  min-height: 320px;
+  @include sm {
+    min-height: 650px;
+  }
 }
 
 input[type=radio] {

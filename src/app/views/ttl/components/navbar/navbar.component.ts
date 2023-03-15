@@ -6,15 +6,15 @@ import { BreakpointObserver } from '@angular/cdk/layout';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent  {
 first = true;
-isSmallScreen = this.breakpointObserve.isMatched('(max-width: 390px)');
-
-constructor(private breakpointObserve:BreakpointObserver){}
-
-ngOnInit(): void {
-  this.isSmallScreen == true ? this.first = false : true
-  
-}
+// isSmallScreen = this.breakpointObserve.isMatched('(max-width: 599px)');
+// 
+// constructor(private breakpointObserve:BreakpointObserver){}
+// 
+// ngOnInit(): void {
+//   this.isSmallScreen == true ? this.first = false : true
+//   
+// }
 
 }

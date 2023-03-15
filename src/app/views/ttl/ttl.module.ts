@@ -12,6 +12,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { FooterComponent } from './components/footer/footer.component';
+import { MatDividerModule } from '@angular/material/divider';
 
 
 const routes: Routes = [
@@ -32,6 +34,7 @@ const routes: Routes = [
     ThirdBlockComponent,
     NavbarComponent,
     SidebarComponent,
+    FooterComponent,
     
     
   ],
@@ -39,7 +42,8 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes),
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDividerModule
     
   ],
   exports: [TtlComponent]
