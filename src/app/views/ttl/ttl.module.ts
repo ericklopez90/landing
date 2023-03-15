@@ -10,6 +10,8 @@ import { ThirdBlockComponent } from './third-block/third-block.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 
 const routes: Routes = [
@@ -30,10 +32,15 @@ const routes: Routes = [
     ThirdBlockComponent,
     NavbarComponent,
     SidebarComponent,
+    
+    
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
+    MatIconModule,
+    MatButtonModule
+    
   ],
   exports: [TtlComponent]
 })
