@@ -11,6 +11,10 @@
     }
 }
 
+.min-h{
+    min-height: 300px;
+}
+
 .s-text {
     font-size: 2rem;
     font-weight: 300;
@@ -31,7 +35,7 @@
 
 .f-text::before{
     content:"";
-    animation: change-title 12s ease-in infinite;
+    animation: change-title 10s ease-in infinite;
 }
 
 .t-text {
